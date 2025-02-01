@@ -59,15 +59,22 @@ export default function Navigation() {
             className="flex items-center space-x-6 group relative"
           >
             <div className="relative w-[220px] h-[70px]" style={{ transformStyle: 'preserve-3d' }}>
-              <div className={`absolute inset-0 ${isRollInComplete ? 'animate-spin3d' : 'animate-rollIn'}`} style={{ animationDuration: isRollInComplete ? '8s' : '3s' }}>
-                <Image
-                  src="/images/reformlogo.svg"
-                  alt="ReformUK Logo"
-                  fill
-                  sizes="220px"
-                  className="object-contain"
-                  priority
-                />
+              <div 
+                className={`absolute inset-0 ${isRollInComplete ? 'animate-spin3d' : 'animate-rollIn'}`} 
+                style={{ animationDuration: isRollInComplete ? '8s' : '3s' }}
+              >
+                <object
+                  data="/images/reformlogo.svg"
+                  type="image/svg+xml"
+                  className="w-full h-full"
+                  aria-label="ReformUK Logo"
+                >
+                  <img
+                    src="/images/reformlogo.svg"
+                    alt="ReformUK Logo"
+                    className="w-full h-full object-contain"
+                  />
+                </object>
               </div>
             </div>
             <div className="flex items-center space-x-2">
