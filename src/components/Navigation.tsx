@@ -61,7 +61,7 @@ export default function Navigation() {
             <div className="relative w-[220px] h-[70px]" style={{ transformStyle: 'preserve-3d' }}>
               <div className={`absolute inset-0 ${isRollInComplete ? 'animate-spin3d' : 'animate-rollIn'}`} style={{ animationDuration: isRollInComplete ? '8s' : '3s' }}>
                 <Image
-                  src="/images/reformlogo.jpg"
+                  src="/images/reformlogo.svg"
                   alt="ReformUK Logo"
                   fill
                   sizes="220px"
