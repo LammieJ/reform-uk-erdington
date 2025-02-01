@@ -160,7 +160,7 @@ const content: GeneratedContent = {
   join: {
     intro: "Join Reform UK Erdington Branch and be part of the change across Erdington, Castle Vale, Pype Hayes, Stockland Green, and Kingstanding. Together, we can implement Reform UK's plan and make a real difference in all our communities.",
     benefits: "Get involved in local and national campaigns, help deliver our Contract with You, attend exclusive events, and build a better future for all our areas.",
-    image: "/images/join.jpg"
+    image: "/images/hero.jpg"
   },
   news: {
     intro: "Stay updated with the latest news from Reform UK Erdington Branch and our national campaign for real change across all our communities.",
